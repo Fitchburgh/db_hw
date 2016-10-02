@@ -12,7 +12,7 @@ def create_char_table(conn)
     ' name VARCHAR(30),' \
     ' class VARCHAR(25),' \
     ' armor_value NUMERIC(4),' \
-    ' weapon VARCHAR)'
+    ' weapon VARCHAR,)' \
   )
 end
 

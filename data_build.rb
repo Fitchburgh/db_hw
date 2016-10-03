@@ -1,4 +1,3 @@
-
 require_relative 'db_structure'
 # LIKE, ORDER BY, ALTER TABLE, UPDATE, SELECT - COUNT, SUM/AVG???, ORDER BY,
 # WHERE id = xxx, DELETE WHERE = xxx, INSERT INTO TABLE IF NOT EXISTS
@@ -16,8 +15,6 @@ def main
   create_character(conn, 'Tacopies', 'shaman', 45, 'Dual Axes')
   create_character(conn, 'Iman', 'healer', 15, 'Book of Truth')
   create_character(conn, 'Kappy', 'assassin', 30, 'Dagger of Death')
-
-
 end
 
 main if __FILE__ == $PROGRAM_NAME
